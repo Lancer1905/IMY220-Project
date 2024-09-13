@@ -1,0 +1,517 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.back-img {
+    z-index: -1;
+    position: fixed;
+    max-width: 100%;
+    top: 10%;
+}
+#root {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: inline-flex;
+    justify-content: space-between;
+    background-color: rgb(19, 19, 87);
+    border-bottom: 2px solid gray;
+    width: 100%;
+}
+.nav-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+.nav-logo-link {
+    height: 4%;
+    width: 5%;
+    margin: 1%;
+    margin-bottom: 0.9%;
+    cursor: pointer;
+}
+.nav-buttons {
+    margin-top: 7px;
+    padding-right: 2%;
+
+} 
+.nav-btn {
+    position: relative;
+    color: lightgray;
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+.nav-btn:hover {
+    color: rgb(205, 58, 170);
+}
+
+.splash {
+    background: none;
+}
+.splash-div {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+.splash-img {
+    margin-left: 33%;
+    margin-top: 5%;
+    max-width: 500px;
+    max-height: 500px;
+}
+.splash-login {
+    max-width: 500px;
+    max-height: 200px;
+    margin-left: 33%;
+    margin-top: 15px;
+    display: inline-flex;
+    justify-content: space-evenly;
+}
+
+.signin-btn {  
+    background-color: lightgray;
+}
+.register-btn {
+    margin-right: 0px;
+    margin-left: 10px;
+   
+    background-color: rgb(181, 31, 211);
+    color: white;
+}
+.logout-btn {
+    width: 160px;
+    height: 25px;
+    background-color: rgb(197, 6, 181);
+
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 12px;
+    margin: 20px;
+    border: 1px solid black;
+}
+.register-btn,.signin-btn {
+    cursor: pointer;
+    font-size: 12px;
+    padding: 5px;
+    margin: 20px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.inline-div {
+    display: inline;
+    margin: 20px;
+    margin-left: 25%;
+}
+
+.login-form {
+    display: flex;
+    max-width: 50%;
+    height: 50%;
+    flex-direction: column;
+    justify-content:space-evenly;
+    align-content:space-evenly;
+    background-color: purple;
+    border: 2px solid yellow;
+    padding: 20px;
+    margin-left: 23%;
+    margin-top: 2%;
+}
+.login-h1 {
+    color: white;
+    margin-top: 5%;
+    margin-left: 16%;
+}
+label, 
+.input-text {
+    font-size: 20px;    
+}
+.show-pass {
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    border: 1px solid ;
+    border-radius: 50%;
+    padding: 0;   
+}
+.show-pass img {
+    max-width: 20px;
+    max-height: 20px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+}
+.submit-btn {
+    position: relative;
+    margin: 20px;
+    width: 30%;
+    height: 28px;
+    margin-left: 35%;
+    background-color: lightyellow;
+    border-radius: 8px;
+    border: 1px solid rgb(80, 2, 80);
+    cursor: pointer;
+}
+
+.home-group {
+    position: relative;
+    display: flex;
+    width: 80%;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 100px auto 50px;
+    background-color: rgb(88, 0, 88);
+    border: 2px solid yellow;
+    padding: 10px;
+    height: 63vh;
+}
+.recent-songs-div, .playlists-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    background-color: rgb(242, 255, 100);
+    padding: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.home-h2 {
+    color: white;
+    margin-left: 40px;
+}
+.home-div {
+    margin:0;
+    padding: 0;
+    width: 40%;
+}
+
+.inline-border-div {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238, 254, 66);
+    justify-content: space-between;
+    width: 93%;
+    height: fit-content;
+    margin: 0;
+    padding: 18.3px 14.3px;
+    border: 3px outset black;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.inline-border-div:hover {
+    background-color: rgb(190, 190, 6);
+}
+.inline-border-div a {
+    text-decoration: none;
+    color: black;
+    border-radius: 8px;
+}
+
+.home-h1 {
+    color: white;
+    margin-top: 2%;
+    margin-left: 12%;
+    z-index: 0;
+    position: fixed;
+}
+.playlist-h1 {
+    color: white;
+    margin-top: 2%;
+    margin-left: 10%;
+    z-index: 0;
+    position: fixed;
+}
+.playlists-h1 {
+    color: white;
+    margin: 5px;
+}
+.playlists-list-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 62vh;
+    background-color: rgb(69, 0, 69);
+    border: 2px solid yellow;
+}
+.search-bar {
+    margin-left: 14%;
+    display: inline;
+    width: 75%;
+}
+.search-input {
+    width: 60%;
+    border-radius: 15px;
+    background-color: lightgray;
+    border: none;
+    font-size: 16px;
+}
+.search-btn {
+    font-size: 16px;
+    text-decoration: none;
+    width: 10%;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(126, 0, 157);
+}
+.playlists-list {
+    width: 80%;
+    margin: 15px;
+    margin-left: 10%;
+    display: flex;
+    padding: 0 15px;
+    flex-direction: column;
+    border: none;
+    overflow-y: auto;
+}
+.no-decor {
+    display: none;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    cursor: pointer;
+}
+.playlist-preview {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.song-div {
+    background-color: lightgray ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 93%;
+    height: 10%;
+    margin: 0;
+    padding: 15px;
+    border: 3px outset black;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.song-div:hover {
+    background-color: rgb(190, 190, 6);
+}
+.playlist-page {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 5%;
+    width: 80%;
+    height: 70vh;
+    background-color: rgb(69, 0, 69);
+    border: 2px solid yellow;
+}
+.playlists-h-div {
+    background-color: rgb(121, 10, 125);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+.songs-list {
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 80%;
+    width: 94%;
+    overflow-y: auto;
+}
+.comment-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color: white;
+    border: 2px groove yellow;
+    margin-top: 2px;
+}
+.profile-block {
+    background-color: goldenrod;
+    width: 80%;
+    height: 80%;
+    margin: 15px;
+    margin-left: 10%;
+    border: 2px solid rgb(53, 11, 48);
+}
+.profile-div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-top: 3%;
+    width: 80%;
+    height: 76vh;
+    background-color: rgb(69, 0, 69);
+    border: 2px solid yellow;
+    overflow-y: auto;
+}
+.profile-p {
+    font-size: 18px;
+    text-decoration: underline;
+}
+.profile-pic-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    height: auto;
+}
+.profile-pic {
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    align-content: center;
+    background-color: black;
+    width: 150px;
+    height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    color: white;
+}
+.profile-data-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5px;
+    height: auto;
+}
+.profile-input {
+    background-color: rgb(91, 0, 91);
+    color: white;
+    border-radius: 0px 8px 8px 0px;
+    width: 50%;
+}
+.profile-label {
+    width: 50%;
+    text-align: center;
+}
+.profile-btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: 10%;
+}
+.profile-delete-btn {
+    background-color: red;
+    color: black;
+    box-shadow: 2px;
+}
+.profile-save-btn {
+    background-color: yellow;
+    box-shadow: 2px 2px;
+}
+.profile-textarea {
+    background-color: rgb(91, 0, 91);
+    color: white;
+    border-radius: 0px 8px 8px 0px;
+    width: 50%;
+    height: 40px;
+    overflow-y: auto;
+}
+.profile-pic:hover {
+    cursor: pointer;
+    src: url("./images/change.png");
+}
+.aside-div {
+    margin-top: 60px;
+    margin-left: 42%;
+    font-size: 16px;
+}
+.add-song-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70%;
+    background-color: rgb(242, 255, 100);
+    padding: 0;
+    overflow-x: hidden;   
+}
+.add-btn {
+    width: 30%;
+    margin-left: 34%;
+}
+.playlist-option {
+    background-color: rgb(232, 7, 232);
+    border-radius: 0px 8px 8px 0px;
+    width: 50%;    
+}
+.centered-div {
+    margin-left: 35%;
+}
+.home-group-duo {
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+    height: 60vh;
+}
+.div-auto {
+    height: fit-content !important;
+}
+.div-background {
+    background-color: gold !important;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+.default-color {
+    color: black !important;
+}
+.biography {
+    height: fit-content;
+    padding: 15px;
+    width: 50%;
+    margin: 10px;
+    margin-left: 25%;
+    background-color: rgb(252, 166, 5);
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 2px;
+}
+.prof-preview-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.color-white {
+    color: white;
+}
+.h-inline-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 15px;
+    margin-left: 0;
+    max-height: 30px;
+    padding: 0;
+    width: 100%;
+}
+.flex-d-row {
+    flex-direction: row !important;
+}
