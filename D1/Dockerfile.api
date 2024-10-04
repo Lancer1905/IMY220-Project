@@ -1,0 +1,7 @@
+FROM node:20
+WORKDIR /app
+COPY Files/package*.json ./
+RUN npm install
+COPY ./Files/backend ./
+EXPOSE 3005
+CMD ["node", "api.js"]
