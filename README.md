@@ -1,6 +1,6 @@
 # IMY220-Project
 
-## Create DOcker Image and run a container
+## Create Docker Image and run a container
 1. Open a terminal in the folder where the Dockerfile is located
 2. run "docker-compose up --build" in the terminal
 
