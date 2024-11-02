@@ -1,0 +1,165 @@
+[{
+  "_id": {
+    "$oid": "66fa7606e4b3c0ff1eea94fe"
+  },
+  "id": 0,
+  "name": "Chilling Piano",
+  "owner": "PieterV",
+  "songs": [
+    0,
+    24
+  ],
+  "lastEdit": "2024-9-4",
+  "comments": [
+    {
+      "username": "Dehya",
+      "contents": "Bro I love your taste in music!"
+    },
+    {
+      "username": null,
+      "contents": "Thanks I love yours too!"
+    },
+    {
+      "username": null,
+      "contents": "Testing testing 12"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66fb1fa69aa68143250988cd"
+  },
+  "id": 2,
+  "name": "Headbangers",
+  "owner": "Dehya",
+  "songs": [
+    30,
+    31
+  ],
+  "lastEdit": "2024-10-2",
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "66ff47c7111766e09fc84060"
+  },
+  "id": 3,
+  "name": "Time to Rock!!",
+  "owner": "PieterV",
+  "songs": [
+    25,
+    26,
+    25,
+    26,
+    27,
+    29
+  ],
+  "lastEdit": "2024-9-4",
+  "comments": [
+    {
+      "username": null,
+      "contents": "Look at me using my brain :)"
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "66ff8a89bfff69b1e28b3a75"
+  },
+  "id": 4,
+  "name": "Bass",
+  "owner": "PieterV",
+  "songs": [
+    28
+  ],
+  "lastEdit": "2024-9-4",
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "67267ea6a214d6c04ab3bf9c"
+  },
+  "id": 5,
+  "name": "Calming sounds",
+  "owner": "HilliBilly",
+  "songs": [
+    32
+  ],
+  "lastEdit": "2024-10-2",
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "67267f35a214d6c04ab3bf9e"
+  },
+  "id": 6,
+  "name": "Rock On!!",
+  "owner": "HilliBilly",
+  "songs": [
+    34
+  ],
+  "lastEdit": "2024-10-2",
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "67267f43a214d6c04ab3bf9f"
+  },
+  "id": 7,
+  "name": "Fan Adaptations",
+  "owner": "HilliBilly",
+  "songs": [
+    33
+  ],
+  "lastEdit": "2024-10-2",
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "67268028a214d6c04ab3bfa2"
+  },
+  "id": 8,
+  "name": "Feeling Good",
+  "owner": "Dehya",
+  "songs": [
+    37
+  ],
+  "lastEdit": "2024-10-2",
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "6726804aa214d6c04ab3bfa3"
+  },
+  "id": 9,
+  "name": "Somber",
+  "owner": "Dehya",
+  "songs": [
+    35,
+    36
+  ],
+  "lastEdit": "2024-10-2",
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "67268066a214d6c04ab3bfa4"
+  },
+  "id": 10,
+  "name": "Another one",
+  "owner": "Dehya",
+  "songs": [],
+  "lastEdit": "2024-10-2",
+  "comments": []
+},
+{
+  "_id": {
+    "$oid": "672680dba214d6c04ab3bfa7"
+  },
+  "id": 11,
+  "name": "Maybe Later",
+  "owner": "Dehya",
+  "songs": [],
+  "lastEdit": "2024-10-2",
+  "comments": []
+}]
